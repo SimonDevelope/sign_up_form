@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>login</title>
+  </head>
+  <body>
+    <a href="../../../index.html">Main</a>
+    <!-- 코드 구현 -->
+    <form id="loginform">
+      <div id="idform">
+        아이디
+        <input type="id" id="id" />
+      </div>
+      <div id="passwordform">
+        비밀번호
+        <input type="password" id="pwd" value=""/>
+      </div>
+      <!-- <div id="alert"></div> -->
+      <span id="message" style="display:none;">비밀번호는 영어, 숫자 포함 8자에서 20자입니다.</span>
+      <div id="buttonform">
+        <button 
+          type="button" 
+          id="btn" 
+          disabled='disabled'
+        >
+          로그인
+        </button>
+      </div>
+    </form>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
